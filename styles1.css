@@ -1,0 +1,103 @@
+body{
+    background-image: url("sky1.png");
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15pt;
+}
+
+header {
+    background-image: url("overview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4pt;
+    background-size: cover;
+}
+
+article{
+    padding: 4pt;
+    
+}
+
+nav{
+    padding: 4pt;
+}
+
+footer{
+    padding: 4pt;
+    background-color: lightgrey;
+}
+
+h1{
+    font-size: 40pt;
+    text-align: left;
+}
+
+h2{
+    font-size: 45pt;
+    text-align: right;
+    
+}
+
+h3{
+    text-align: right;
+
+}
+
+#city {
+    font-size: 70pt;
+    font-weight: bold;
+    text-align:left ;
+    width: 60%;
+    display: inline-block;
+}
+
+#date {
+    font-size: 30pt;
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+}
+
+table, td{
+    width: 100%;
+    min-width: 520px;
+    table-layout: fixed;
+    text-align: center;
+    font-style: normal;
+    border: 1.5px solid white;
+    border-collapse:collapse;
+    
+}
+
+.cloudy-sun {
+    background-image: url('sun.rays.cloud.png');
+}
+
+.sunny {
+    background-image: url('sun.rays.small.png');
+}
+
+.rainy-sun {
+    background-image: url('sun.rays.cloud.drizzle.png');
+}
+
+.ligthing-cloud {
+    background-image: url('cloud.dark.lightning.rain.png');
+}
+
+.cloudy-rain-less {
+    background-image: url('cloud.drizzle.png');
+}
+
+.cloudy-rain-much {
+    background-image: url('cloud.rain.png');
+}
+
+.weather-icon {
+    background-repeat: no-repeat;
+    height: 50px;
+    text-align: center;
+    background-position: center;
+}
